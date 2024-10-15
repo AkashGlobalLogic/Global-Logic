@@ -1,19 +1,21 @@
 package Com.GlobalLogic.Task.KitchenSink_Task.Model;
 
 import jakarta.validation.constraints.*;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-
+@NoArgsConstructor
 @Getter
 @Setter
+@AllArgsConstructor
+@Data
 @Document(collection = "members")
 public class Member  {
 
     @Id
+    @NotNull
     private String id;
 
     @NotNull

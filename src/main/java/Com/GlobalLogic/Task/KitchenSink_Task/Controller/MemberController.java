@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
 @Controller
-@SessionAttributes("newMember") // Keep newMember in the session
+//@SessionAttributes("newMember") // Keep newMember in the session
 public class MemberController {
 
         @Autowired

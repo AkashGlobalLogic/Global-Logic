@@ -13,5 +13,4 @@ public interface MemberRepository extends MongoRepository<Member, String> {
 
     List<Member> findAllByOrderByName();
 
-
 }
