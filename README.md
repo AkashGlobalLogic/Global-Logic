@@ -22,6 +22,10 @@ Clone the repository to your local machine:
 https://github.com/AkashGlobalLogic/Global-Logic.git
 
 ### Step 2: Build the Project
-Use Maven to compile and package the application:
 
-mvn clean install
+To build the project using Maven, follow these steps:
+
+1. **Clean the project** (remove any previous build artifacts):
+   ```bash
+   mvn clean
+
